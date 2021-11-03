@@ -8,6 +8,7 @@ npm test
 
 # paths:
 1) shorten url
+
 http://localhost/encode
 params: 
 url - valid url address
@@ -15,7 +16,8 @@ url - valid url address
 returns:
 shorturl
 
-2) get 
+2) get full url
+ 
 http://localhost/encode
 params: 
 shorturl - valid url address
