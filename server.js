@@ -1,5 +1,6 @@
 import express from 'express';
 import { initShorteningRoutes } from "./routes/shortening-routes.js";
+
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
