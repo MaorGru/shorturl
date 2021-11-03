@@ -12,3 +12,19 @@ content-type: application/json
 {
     "shorturl" : "https://codesubmit.io/library/reactshort"
 }
+
+###
+POST http://localhost:8080/decode HTTP/1.1
+content-type: application/json
+
+{
+    "shorturl" : "https://codesubmit.io/library/noentry"
+}
+
+###
+POST http://localhost:8080/decode HTTP/1.1
+content-type: application/json
+
+{
+    "shorturl" : "https://invalid"
+}

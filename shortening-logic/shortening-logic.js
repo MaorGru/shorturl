@@ -9,6 +9,7 @@ export const encode = (url) => {
 }
 
 export const decode = (url) => {
+    //handle non existing data
     let decoded = shorteningCache.get(url);
     return decoded;
 }
