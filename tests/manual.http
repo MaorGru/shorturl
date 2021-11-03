@@ -18,7 +18,7 @@ POST http://localhost:8080/decode HTTP/1.1
 content-type: application/json
 
 {
-    "shorturl" : "https://codesubmit.io/library/reactshort"
+    "shorturl" : "http://short.est/d6bb5d"
 }
 
 ###
