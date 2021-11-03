@@ -2,7 +2,7 @@ POST http://localhost:8080/encode HTTP/1.1
 content-type: application/json
 
 {
-    "orig": "encode url",
+    "orig": "https://codesubmit.io/library/react",
 }
 
 ###
